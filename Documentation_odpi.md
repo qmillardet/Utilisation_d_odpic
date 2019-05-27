@@ -28,6 +28,6 @@ il suffit lors de la compilation de mettre les opitions ```-L/path_to_repository
 Avec cLion
 ----------
 
-- Le plus simple consiste à copier le contenu du dossier ```lib``` généré dans le dossier  ```/usr/local/lib/```.
+- Le plus simple consiste à copier le contenu du dossier ```odpi-master/lib``` généré dans le dossier  ```/usr/local/lib/```.
 - Puis dans la CMakeListes.txt, il faut ajouter la ligne : ```target_link_libraries(C "-lodpic")```
 Dans notre cas, C correspond à ce qu'il y a entre parenthèse dans la ligne project(C C)
